@@ -1,5 +1,7 @@
 # FPV Parser
 
+A video parser which merges multiple vidoes then erases the audio of the merged video.
+
 ## Step 1
 Put the video files in the `input_video` folder.
 The videos inside the folder will be merged and the audio will be erased.
