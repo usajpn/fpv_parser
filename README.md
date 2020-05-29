@@ -17,9 +17,11 @@ After creating the file, the merging and the erasing of audio will be executed.
 
 ### Example1: Create merged w/o audio file
 `./fpv_parser.sh s CMU_test`
+
 This will create merged single file in the output folder: `CMU_test_wo_audio.mp4`
 
 ### Example2: Create all(not merged) w/o audio file
 `./fpv_parser.sh a CMU_test`
+
 This will create files in the output folder: `CMU_test_GH040062.mp4`, `CMU_test_GH040063.mp4`
 
