@@ -10,7 +10,7 @@ else
 	while IFS= read -r line
 	do
 		f=`basename "$line"`
-		ffmpeg -i ./input_video/$f -vcodec copy -an ./output_video/${name}_${f}
+		< /dev/null ffmpeg -i ./input_video/$f -vcodec copy -an ./output_video/${name}_${f}
 	done < "$input"
 fi
 
